@@ -1,0 +1,101 @@
+.PR-Produtos{
+    text-align: center;
+    padding: 10px;
+    font-size: xx-large;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    text-shadow: 0 0 15px #050505;
+    font-style: initial;
+}
+.título {
+    text-align: center;
+    padding: 50px;
+    font-size: x-large;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    text-shadow: 0 0 5px #7a90d8;
+    font-style: oblique;
+
+}
+
+.box-login {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    border: 3px solid #8b8787 ;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.título-login {
+   text-align: center; 
+    color: var(--cor-primaria);
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+label {
+    font-size: 15px medium;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    border: 3px solid #ddd;
+    border-radius: 12px;
+    
+}
+
+.grupo {
+    margin-top: 10px;
+}
+
+.esqueci-minha-senha a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.esqueci-minha-senha {
+    text-align: right;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+#btn-entrar {
+    margin-top: 12px;
+    background-color: var(--cor-primaria);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+#btn-entrar:hover {
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+#btn-criar {
+    margin-top: 10px;
+    background-color: var(--cor-primaria);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+#btn-criar:hover {
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+
+body {
+    animation: fundoAnimado 5s infinite alternate; /* Define a animação */
+}
+
+#loading{
+    display: none;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+ :root { 
+    --cor-primaria: #000f44;
+    --cor-secundaria: #174488;
+}
+
+
+
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+.table {
+    font-size: 12px;
+}
+
+.btn-primary.btn-primary{
+    background-color: var(--cor-primaria);
+}   

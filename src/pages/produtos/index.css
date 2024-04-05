@@ -1,0 +1,25 @@
+.modal-dialog {
+    max-width: 700px;
+}
+
+#btn-adicionar {
+    background-color: lightblue;
+}
+
+.col-sm-12-produtos {
+    padding: 10px;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    text-shadow: 0 0 15px #050505;
+    font-style: initial;
+    ;
+}
+
+.modal-footer {
+    background-color: lightblue;
+
+}
+
+#btn-salvar {
+    background-color: lightblue;
+}

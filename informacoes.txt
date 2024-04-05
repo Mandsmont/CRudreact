@@ -1,0 +1,5 @@
+criar o projeto com o comando
+npx create-react-app
+
+limpar a baase do projeto
+public e src 
